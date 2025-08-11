@@ -1,0 +1,34 @@
+{
+  "apiVersion": 2,
+  "name": "gnsa/chat",
+  "title": "GPT-5 Nano Site Assistant",
+  "category": "widgets",
+  "icon": "format-chat",
+  "description": "Site-only content chat widget powered by GPT-5.",
+  "textdomain": "gpt5-nano-site-assistant",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "model": {
+      "type": "string",
+      "default": ""
+    },
+    "language": {
+      "type": "string",
+      "default": "auto"
+    },
+    "maxChars": {
+      "type": "number",
+      "default": 1200
+    },
+    "showSources": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "editorScript": "gnsa-block-edit",
+  "editorStyle": "gnsa-block-style",
+  "style": "gnsa-block-style",
+  "render": "file:./render.php"
+}

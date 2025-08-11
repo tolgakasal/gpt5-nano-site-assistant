@@ -1,0 +1,22 @@
+{
+  "name": "yourname/gpt5-nano-site-assistant",
+  "description": "WordPress plugin: GPT-5 Nano Site Assistant",
+  "type": "project",
+  "require": {},
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^3.9",
+    "wp-coding-standards/wpcs": "^3.0",
+    "dealerdirect/phpcodesniffer-composer-installer": "^1.0"
+  },
+  "scripts": {
+    "phpcs": "phpcs -s",
+    "phpcbf": "phpcbf"
+  },
+  "config": {
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    },
+    "optimize-autoloader": true,
+    "sort-packages": true
+  }
+}
