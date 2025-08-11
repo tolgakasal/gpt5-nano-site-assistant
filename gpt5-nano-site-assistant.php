@@ -3,7 +3,7 @@
 Plugin Name: GPT-5 Nano Site Assistant
 Description: Site-only content chat assistant using GPT-5-nano. Gutenberg block + shortcode with Bootstrap UI.
 Version: 1.0.0
-Author: ChatGPT
+Author: ChatGPT-5 & tolgakasal
 Text Domain: gpt5-nano-site-assistant
 */
 
